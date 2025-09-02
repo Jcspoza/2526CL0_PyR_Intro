@@ -1,74 +1,117 @@
-# CL0 - Presentación Taller PyR 2024 y 2025 en CMM Benito Martin Lozano
+# CL0 - Presentación Taller PyR 2025 - 2026, Circuitos 0 y Demos
 
 ## Clase 0 - Indice - 90 minutos
 
-- Referencias : Libros de referencia, programas , estudio posterior
+- Requisitos de los alumnos/as
+  
+  - Necesarios
+  
+  - Deseables
 
-- Presentación curso y profesor – 10 minutos
+- Presentación profesor – 10 minutos
+
+- ¿Qué es la robótica?
 
 - Enfoque: ¿Por qué Programación y Robotica simultáneamente? – 10 min
 
-- Demos - Primeros pasos (solo profesor) – 30 mins
-  
-  - Python : “Hola mundo”
-  
-  - Micropython : ‘Blink’ led
-
 - Presentación alumnos -20 mins
-  (Taller personalizado para alumnos según sus intereses y formación previa => puesta en común)
+  (Este es un taller personalizado para alumnos según sus intereses y formación previa => puesta en común)
 
 - ¿Qué vamos a necesitar (minimo)?
 
-- Programa del curso 24 - 25
+- Demos
 
-## Referencias : Libros de referencia, programas , estudio posterior
+## Requisitos de los alumnos
 
-### Libros y webs de referencia de referencia - TODO EL CURSO
+Sintiéndolo mucho y para evitar que todos perdamos el tiempo, diré ante de nada, que el curso requiere unos requisitos mínimos por parte de los alumnos:
 
-#### Libros Python
+### **<u>Necesarios</u>**
 
-* [Invent with Python](https://inventwithpython.com/invent4thed/) en ingles , web gratuita con el libro completo + programas en python
+#### 1- Familiaridad con los PC
 
-    Se puede descargar una [versión en Castellano en pdf aqui](./doc/Inventa_Juegos_con_Python_4ed.pdf)
+Este taller requiere que tengas un manejo de un ordenador tipo PC de nivel medio, es decir debes ser capaz de:
 
-* [web de referencia de Python en castellano](https://ellibrodepython.com/)
+- Escribir en programas en aplicación de editor de texto ( como un word, pero mas sencillo)
 
-#### Tutoriales Pico W en micropython
+- Manejar ficheros del ordenador: copiar, mover , borrar, etc
 
-* [Oficial-Introduction to Raspberry Pi Pico guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico/0)
+- Navegar por la web, bajar ficheros etc.
 
-* [Oficial- Getting started with your Raspberry Pi Pico W](https://projects.raspberrypi.org/en/projects/get-started-pico-w/0)
+- Conectar al puerto USB cables o pendrives y manejar los ficheros y programas dentro del pen
 
-* [Buena web de tutoriales -Sunfounder](https://docs.sunfounder.com/projects/kepler-kit/en/latest/pyproject/for_micropython_user.html)
+#### 2- Habilidades manipulativas manuales y cognitivas mínimas
 
-* [Otra buena web de tutoriales - Freenove ¡El tutorial incluye el nuevo Pico 2!](https://github.com/Freenove/Freenove_Super_Starter_Kit_for_Raspberry_Pi_Pico/tree/main/Python)
+Sintiéndolo mucho, si tienes **dificultades motoras serias con las manos**, este curso no es adecuado para ti.
 
-### Tabla resumen de programas
+Mismo caso, si tienes **deterioro cognitivo severo**.
 
-| Programa                                   | Lenguaje                    | HW si Robotica y Notas                                  | Objetivo de Aprendizaje     |
-| ------------------------------------------ | --------------------------- | ------------------------------------------------------- | --------------------------- |
-| ‘[Blink’ led](./R_2425CL0_Exblink_v1_2.py) | micropython (uPython, o uP) | GPIO16 -> R220 ohm -> LED1 cátodo  y R220 -> LED2 ánodo | Primer programa de robotica |
-| [Hola mundo](./P_2425CL0_hola.py)          | Python                      | Input()no funciona con algunos IDE python on line       | Primer programa de Python   |
+Aceptamos sin problemas 'supuestos torpes' y no me importa repetir los conceptos si tu memoria no anda fina.
 
-### Recomendaciones de estudio despues de la clase
+#### 3- No tener miedo a la electricidad a bajo voltaje
 
-Ejecutar "hola mundo" en un IDE de Python, opciones:
+Manejaremos como máximo voltajes de 12 voltios y 1 amperio. La mayor parte del tiempo el voltaje será de 3,3 voltios o 5 voltios y la corriente del orden de decenas de miliamperios: es decir menos que inocuo 
 
-- web como : [https://www.online-python.com/](https://www.online-python.com/)
+#### 4- Inversión económica mínima
 
-- O si tienes instalado el IDE [Thonny ](https://thonny.org/)
+Vamos a trabajar con un microcontrolador llamado Pico W que no proporciona el centro, y tiene un coste de unos 12 euros. Además es necesario disponer de materiales electrónicos individuales, con un coste variable no superior a 50 euros. Este material más el microcontrolador se han comprado otros años como kits y sale mas económico.
 
-- u otro IDE mas complejo como Visual Studio Code
+También pueden ser necesarias algunas herramientas básicas como alicates o pelacables, o disponer de un multímetro básico. El profesor proporcionará de estas herramientas para las clases de cualquier forma
 
-**+**
+### <u>Deseables</u>
 
-Leer capitulo 2 de libro "Invent with python"" [Chapter 2 - Writing Programs](https://inventwithpython.com/invent4thed/chapter2.html)
+- Leer en ingles
+
+- Haber programado con anterioridad (no importa el lenguaje)
+
+- Manitas eléctrico
+
+<u>**Si no crees cumplir alguno de los requisitos , te invito a quedarte para experimentar. decide si te quedas o no al final de la clase de hoy**</u>
 
 ---
 
-## Presentación curso y profesor – 10 minutos
+## Presentación del profesor – 10 minutos
 
-Currículo de Voluntario tecnológico del profesor [CV](./doc/CV_JCSP_Voluntario_20240906.pdf)
+Currículo de Voluntario tecnológico del profesor [CV](./CV_JCSP_Voluntario_20240906.pdf) 
+
+## ¿Qué es la robótica?
+
+Si  preguntáis a copilot (una IA)  diría: 
+
+---
+
+### 🤖 ¿Qué es la robótica?
+
+La **robótica** es una rama de la ingeniería y la ciencia que se encarga del diseño, construcción, programación y uso de **robots**. Un robot es una máquina capaz de realizar tareas de manera automática, ya sea siguiendo instrucciones programadas o tomando decisiones por sí mismo mediante sensores e inteligencia artificial.
+
+### 🧠 Disciplinas que combina
+
+La robótica es un campo multidisciplinario que une varias áreas del conocimiento:
+
+- **Ingeniería mecánica**: para construir la estructura y los mecanismos del robot.
+
+- **Electrónica**: para controlar motores, sensores y circuitos.
+
+- **Informática**: para programar el comportamiento del robot.
+
+- **Inteligencia artificial**: para que el robot pueda aprender, adaptarse y tomar decisiones.
+
+---
+
+Yo diría que la robotica es la **ultima evolución del afán de los ser humanos por construir objetos útiles** (maquinas) **que le hagan la vida mas facil.**
+
+La robotica **usa electricidad** tanto como **fuerza motriz** como para **comunicar informacion** entre los distintas componentes, como el ser humano. 
+
+Asimismo la robotica usa:
+
+- **sensores** ( que leen informacion del mundo) 
+
+- **actuadores** , como motores, luces calentadores etc que cambian el mundo circundadente
+
+- dispositivos de **entrada y salida** para intercambiar informacion con los humanos, como teclados y pantallas
+
+En todos estos dispositivos se aprovechan todos los avances de la física, electromagnetismo y cuántica principalmente, del siglo IXX y XX fundamentalmente.
+
+Si seguimos la definición más estándar de arriba, he de decir que **NO vamos a aprender ingeniería mecánica** en este curso. Tampoco creo que vaya a dar tiempo a aprender Inteligencia artificial. <u>Asi que nos vamos a centrar en : Electrónica e informática</u>
 
 ## Enfoque: ¿Por qué Programación y Robotica simultáneamente? – 10 min
 
@@ -81,8 +124,6 @@ Programación como Robótica.
 | Mas Abstracto, los programas se ejecutan en un ordenador y no interactúan con el mundo salvo el teclado y la pantalla (hasta que se hacen cosas con internet) | Mos concreto, se pueden hacer "cacharros" como termostatos, estaciones meteorológicas, etc                          |
 | Rápidamente se avanza a programas más complejos y más “inteligentes”                                                                                          | Los programas que se cargan en el microcontrolador son relativamente simples, aunque poco a poco se van complicando |
 | No se necesita hardware para empezar (microcontrolador y materiales de robótica), salvo un PC o similar                                                       | Se NECESITA hardware para empezar: materiales de robótica y microcontrolador                                        |
-
-<img src="./doc/Python-logo-notext.svg.png" alt="" width="140">
 
 En <u>programación</u>, **Python** es sin duda el lenguaje mas adecuado para aprender (en edad adulta) porque es :
 
@@ -110,27 +151,11 @@ Mas razones en los siguientes videos
 
 [3 Reasons to Learn Python - AI and LLMs is One of Them, but There are MORE!](https://www.youtube.com/watch?v=EHsLuHbE_9s)
 
-En <u>Robotica</u>, hasta hace poco tiempo había que usar para programar los microcontroladores , que son el cerebro de los proyectos de robotica, lenguajes relativamente oscuros como "C" o derivadas de C ( IDE Arduino) . Afortunadamente, en 2013 el físico Australiano Damien George, desarrollo junto a otros personas **micropython** para el microcontrolador PyBoard, y rápidamente se "porto" a otros microcontroladores como ESP32 o RPI Pico.
-
-<img src="./doc/MicroPython_new_logo.jpg" title="" alt="" width="140">
+En <u>Robotica</u>, hasta hace poco tiempo había que usar para programar los microcontroladores, que son el cerebro de los proyectos de robotica, lenguajes relativamente oscuros como "C" o derivadas de C ( IDE Arduino) . Afortunadamente, en 2013 el físico Australiano Damien George, desarrollo junto a otros personas **micropython** para el microcontrolador PyBoard, y rápidamente se ex- "porto" a otros microcontroladores como ESP32 o **RPI Pico, que es el que usaremos**
 
 **Micropython** es una implementación del lenguaje de programación Python 3, escrita en C, optimizada para poder ejecutarse en un microcontrolador. Es decir **permite programar los microcontroladores con "programas" escritos en un sub-conjunto de Python con alguna peculiaridad del microcontrolador** por lo que son aplicables todas las ventajas de Python
 
 ***En este curso se aprende simultáneamente Python y microPython con lo cual el aprendizaje se realimenta y multiplica***
-
-## Demos - Primeros pasos (solo profesor) – 30 mins
-
-Vamos a ver como demostración los mas clásico que en programación consiste que que un programa te "salude" : 
-
-Python : [Hola mundo](./P_2425CL0_hola.py)
-
-y en robotica es un programa que hace que un led se encienda y se apague. En nuestro caso van a ser 2 leds
-
-Micropython : ‘[Blink’ led](./R_2425CL0_Exblink_v1_2.py)
-
-![Esquema de conexiones](./doc/pico_2led_blink_bb.png)
-
-[Simulacion con Wokwi](https://wokwi.com/projects/409472721388251137)
 
 ## Presentación alumnos -20 mins
 
@@ -144,22 +169,23 @@ Es el momento de conocernos un poco, porque este es un taller personalizado para
 
 *Herramientas HW*: **<u>Microcontrolador</u>**: ya hemso comentado que es como el cerebro de todos los proyectos de robotica, es también donde se conectan todos los sensores, displays, etc. El **año pasado decidimos usar el microcontrolador <u>Raspberry Pi Pico W</u>** 
 
-<img src="./doc/CMM_BML_Taller_P_R2023_compara_micros.png" title="Tabla micros" alt="" width="1000">
-
 Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el precio es aproximadamente el mismo. Comentaremos este tema en próximas clases
 
 **Novedad:** Recientemente, agosto 2024, ha aparecido una versión muy mejorada de la Raspberry Pico -> [**Raspberry Pi Pico 2**: A Powerful New Addition to the Microcontroller Family | Elektor Magazine](https://www.elektormagazine.com/news/raspberry-pi-pico-2-a-powerful-new-addition-to-the-microcontroller-family)) muy interesante, pero de momento sin wifi asi que nos quedaremos con el Pico W
 
-Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una protoboard y algunas cosas ( muy baratas) mas.
-
-## Programa del curso 24 - 25
-
-El programa se adaptará a los alumnos como se hizo los dos cursos anteriores. Si hay alumnos nuevos con un nivel inicial, lo que haremos será 
-
-Robotica : dispositivos de entrada que no se ha dado de forma completa
-
-Programación: reforzar conceptos repasando "Invent with Python " y otros libros y guías
+Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una protoboard y algunas cosas (muy baratas) mas.
 
 ---
 
-TO DO :HW: 
+## Demos
+
+## Tabla resumen de programas
+
+| Programa                                   | Lenguaje                    | HW si Robotica y Notas                                  | Objetivo de Aprendizaje     |
+| ------------------------------------------ | --------------------------- | ------------------------------------------------------- | --------------------------- |
+| ‘[Blink’ led](./R_2425CL0_Exblink_v1_2.py) | micropython (uPython, o uP) | GPIO16 -> R220 ohm -> LED1 cátodo  y R220 -> LED2 ánodo | Primer programa de robotica |
+| [Hola mundo](./P_2425CL0_hola.py)          | Python                      | Input()no funciona con algunos IDE python on line       | Primer programa de Python   |
+
+---
+
+TO DO :
