@@ -71,7 +71,7 @@ También pueden ser necesarias algunas herramientas básicas como alicates o pel
 
 ## Presentación del profesor – 10 minutos
 
-Currículo de Voluntario tecnológico del profesor [CV](./CV_JCSP_Voluntario_20240906.pdf) 
+Currículo de Voluntario tecnológico del profesor [CV](./CV_JCSP_Voluntario_202510.pdf) 
 
 ## ¿Qué es la robótica?
 
