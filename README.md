@@ -1,4 +1,4 @@
-# CL0 - Presentación Taller PyR 2025 - 2026, Circuitos 0 y Demos
+# CL0 - Presentación Taller PyR 2025 - 2026 +Demos
 
 ## Clase 0 - Indice - 90 minutos
 
@@ -99,19 +99,19 @@ La robótica es un campo multidisciplinario que une varias áreas del conocimien
 
 Yo diría que la robotica es la **ultima evolución del afán de los ser humanos por construir objetos útiles** (maquinas) **que le hagan la vida mas facil.**
 
-La robotica **usa electricidad** tanto como **fuerza motriz** como para **comunicar informacion** entre los distintas componentes, como el ser humano. 
+La robotica **usa electricidad** tanto como **fuerza motriz** como para **comunicar informacion** entre los distintas componentes de un a maquina, como con el/los ser/es humano/s que la maneja/n
 
-Asimismo la robotica usa:
+Concretando, la robotica usa:
 
-- **sensores** ( que leen informacion del mundo) 
+- **sensores** (que leen informacion del mundo) 
 
-- **actuadores** , como motores, luces calentadores etc que cambian el mundo circundadente
+- **actuadores** , como motores, luces calentadores etc que cambian el mundo circundandente
 
 - dispositivos de **entrada y salida** para intercambiar informacion con los humanos, como teclados y pantallas
 
-En todos estos dispositivos se aprovechan todos los avances de la física, electromagnetismo y cuántica principalmente, del siglo IXX y XX fundamentalmente.
+En todos estos dispositivos se aprovechan todos los avances de la física: electromagnetismo y cuántica principalmente, del siglo IXX al  XXI, junto con los desarrollos industriales derivados, por ejemplo el led ( las bombillas led) se basan en la física cuántica del principios del s XX y un desarrollo de ingeniería que abarco desde  el primer led en 1962, hasta el led azul de 1992 ( premio nobel 2014)
 
-Si seguimos la definición más estándar de arriba, he de decir que **NO vamos a aprender ingeniería mecánica** en este curso. Tampoco creo que vaya a dar tiempo a aprender Inteligencia artificial. <u>Asi que nos vamos a centrar en : Electrónica e informática</u>
+Si seguimos la definición más estándar de arriba, he de decir que **NO vamos a aprender ingeniería mecánica** en este curso de robótica. Tampoco creo que vaya a dar tiempo a aprender Inteligencia artificial. <u>Asi que nos vamos a centrar en : Electrónica e informática</u>
 
 ## Enfoque: ¿Por qué Programación y Robotica simultáneamente? – 10 min
 
@@ -173,18 +173,32 @@ Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el
 
 **Novedad:** Recientemente, agosto 2024, ha aparecido una versión muy mejorada de la Raspberry Pico -> [**Raspberry Pi Pico 2**: A Powerful New Addition to the Microcontroller Family | Elektor Magazine](https://www.elektormagazine.com/news/raspberry-pi-pico-2-a-powerful-new-addition-to-the-microcontroller-family)) muy interesante, pero de momento sin wifi asi que nos quedaremos con el Pico W
 
-Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una protoboard y algunas cosas (muy baratas) mas.
+Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) mas.
 
 ---
 
 ## Demos
 
+### Demo de Robotica : Tira Led (x8) de colores controlada por display, pulsadores y botón rotativo
+
+He preparado sobre un montaje con el que acabamos el curso anterior de un 'display' mas 3 pulsadores y botón de rueda . he añadido una tira neopixel de ledes de colores controlables individualmente ( también vista el curso pasado)
+
+[Tira 8 led de colores y control con display](./Rdemo_neopx8_showMenu_2_0.py)
+
+### Demo de Programación : Juego 'Mata-puntos'
+
+Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un juego qu epodria servir para evaluar las habilidades de manejo del ratón de ordenador : 
+
+    Se trata simplemente de clicar en los puntos rojos ( bastante grandes) que aparecen en pantalla, y que van aumentando su velocidad de aparición, hasta ver cuantos puedes 'matar'
+
+[Juego Mata puntos](./Pdemo_MataPuntos_GZch7_2_0.py)
+
 ## Tabla resumen de programas
 
-| Programa                                   | Lenguaje                    | HW si Robotica y Notas                                  | Objetivo de Aprendizaje     |
-| ------------------------------------------ | --------------------------- | ------------------------------------------------------- | --------------------------- |
-| ‘[Blink’ led](./R_2425CL0_Exblink_v1_2.py) | micropython (uPython, o uP) | GPIO16 -> R220 ohm -> LED1 cátodo  y R220 -> LED2 ánodo | Primer programa de robotica |
-| [Hola mundo](./P_2425CL0_hola.py)          | Python                      | Input()no funciona con algunos IDE python on line       | Primer programa de Python   |
+| Programa                                                                      | Lenguaje                    | HW si Robotica y Notas                                  | Objetivo de Aprendizaje   |
+| ----------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------- | ------------------------- |
+| [Tira 8 led de colores y control con display](./Rdemo_neopx8_showMenu_2_0.py) | micropython (uPython, o uP) | GPIO16 -> R220 ohm -> LED1 cátodo  y R220 -> LED2 ánodo | Programa demo de robotica |
+| [Juego Mata puntos](./Pdemo_MataPuntos_GZch7_2_0.py)                          | Python                      | Input()no funciona con algunos IDE python on line       | Programa demo de  Python  |
 
 ---
 
