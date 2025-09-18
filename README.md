@@ -183,7 +183,7 @@ Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador +
 
 1. Las clases se publicaran en internet como es el caso de esta clase y tendrán unidad temática.
 
-2. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas]()***
+2. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas]([GitHub - Jcspoza/2526CL0_PyR_Intro: Prog y Robot CMM BML 2025 -26 - Intoduccion](https://github.com/Jcspoza/2526CL0_PyR_Intro#tabla-resumen-de-programas))***
 
 3. Cada clase se dará en 1 , 2 o máximo  3 sesiones
 
