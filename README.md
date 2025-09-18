@@ -217,11 +217,14 @@ Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un jueg
 
 ## Tabla resumen de programas
 
-| Programa                                                                      | Lenguaje                    | HW si Robotica y Notas                                  | Objetivo de Aprendizaje   |
-| ----------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------- | ------------------------- |
-| [Tira 8 led de colores y control con display](./Rdemo_neopx8_showMenu_2_0.py) | micropython (uPython, o uP) | GPIO16 -> R220 ohm -> LED1 cátodo  y R220 -> LED2 ánodo | Programa demo de robotica |
-| [Juego Mata puntos](./Pdemo_MataPuntos_GZch7_2_0.py)                          | Python                      | Input()no funciona con algunos IDE python on line       | Programa demo de  Python  |
+| Programa                                                                      | Lenguaje                    | HW si Robotica y Notas                                                                                                                           | Objetivo de Aprendizaje   |
+| ----------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [Tira 8 led de colores y control con display](./Rdemo_neopx8_showMenu_2_0.py) | micropython (uPython, o uP) | Display SH1106 I2C GPIO4&5 + Tira neopixel en GPIO15 + REncoder GPIO16/17 + 3switch 18,19 20                                                     | Programa demo de robotica |
+| [Juego Mata puntos](./Pdemo_MataPuntos_GZch7_2_0.py)                          | Python                      | Libreria: 'guizero'. Programa ejemplo del libro [Create Graphical User Interfaces with Python](https://github.com/themagpimag/createguis)- cap 7 | Programa demo de  Python  |
 
 ---
 
-TO DO :
+TO DO : 
+
+1. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( sin display por simplicidad) 
+2. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús)
