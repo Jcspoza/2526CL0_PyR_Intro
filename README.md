@@ -1,5 +1,9 @@
 # CL0 - Presentación Taller PyR 2025 - 2026 +Demos
 
+Indice evolutivo del las clases del taller + libros y webs de referencia:
+
+[GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
+
 ## Clase 0 - Indice - 90 minutos
 
 - Requisitos de los alumnos/as
@@ -175,6 +179,24 @@ Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el
 
 Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) mas.
 
+## Funcionamiento de las clases
+
+1. Las clases se publicaran en internet como es el caso de esta clase y tendrán unidad temática.
+
+2. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas]()***
+
+3. Cada clase se dará en 1 , 2 o máximo  3 sesiones
+
+4. Robotica: La idea es que el prototipo robótico se construya por cada alumno/a y que se entienda el funcionamiento del programa en microPyton
+
+5. Programación: Los conceptos de programación en Python se probaran por cada alumno/a en durante la clase con el interprete si son comandos simples , o con pequeños programas ejemplo , en ambos casos indicados en la documentación de la clase
+
+6. Programación: Los programas mas complejos serán explicados en clase y se pedirá como trabajo de 'casa', hacer algun pequeño cambio en el programa y ver los efectos
+
+7. El programa de clases se ira concretando y adaptando a los alumnos. Hay mucho material de años anteriores cubriendo un amplio abanico de complejidad, desde lo mas sencillo.
+
+8. Se dispone de una pagina web Indice de las clases y de contenido general como libros/webs de referencia, que ira evolucionado durante el curso, enlace: [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
+
 ---
 
 ## Demos
@@ -187,7 +209,7 @@ He preparado sobre un montaje con el que acabamos el curso anterior de un 'displ
 
 ### Demo de Programación : Juego 'Mata-puntos'
 
-Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un juego qu epodria servir para evaluar las habilidades de manejo del ratón de ordenador : 
+Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un juego que podría servir para evaluar las habilidades de manejo del ratón de ordenador : 
 
     Se trata simplemente de clicar en los puntos rojos ( bastante grandes) que aparecen en pantalla, y que van aumentando su velocidad de aparición, hasta ver cuantos puedes 'matar'
 
