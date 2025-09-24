@@ -23,7 +23,13 @@ Indice evolutivo del las clases del taller + libros y webs de referencia:
 
 - ¿Qué vamos a necesitar (minimo)?
 
+- Funcionamiento y Dinámica de las clases
+
 - Demos
+
+- Tabla resumen de programas
+
+- TO DO
 
 ## Requisitos de los alumnos
 
@@ -167,7 +173,7 @@ Es el momento de conocernos un poco, porque este es un taller personalizado para
 
 --> Hagamos una puesta en común de 20 mins
 
-## ¿Qué herramientas vamos a necesitar (minimo)?
+## ¿Qué vamos a necesitar (minimo)?
 
 *Herramientas SW* : <u>**IDE:**</u> Para programar **tanto en Python como en micropython** vamos usar **<u>Thonny</u>** que es un IDE: Entorno integrado de Desarrollo. Es gratis y solo necesitamos instalarlo en un PC o en un pendrive : lo contaremos en la clase 1.
 
@@ -179,23 +185,41 @@ Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el
 
 Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) mas.
 
-## Funcionamiento de las clases
+## Funcionamiento y Dinámica de las clases
 
-1. Las clases se publicaran en internet como es el caso de esta clase y tendrán unidad temática.
+### Dinámica
 
-2. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas](https://github.com/Jcspoza/2526CL0_PyR_Intro#tabla-resumen-de-programas)***
+1. Las clases se publicaran en internet antes de ser impartidas (como es el caso de esta clase) y tendrán unidad temática.
 
-3. Cada clase se dará en 1 , 2 o máximo  3 sesiones
+2. La duración será de 1.5 horas, con la siguiente distribución, tentativamente:
+   
+   1. Teoría o similar :30 min
+   
+   2. Demos de profesor : 30 min
+   
+   3. Trabajo de lo alumnos/as : montaje , probar los programas en sus uC, etc
 
-4. Robotica: La idea es que el prototipo robótico se construya por cada alumno/a y que se entienda el funcionamiento del programa en microPyton
+3. Se trabajara individualmente en principio, cada alumno0 con su propio material, salvo excepción.
 
-5. Programación: Los conceptos de programación en Python se probaran por cada alumno/a en durante la clase con el interprete si son comandos simples , o con pequeños programas ejemplo , en ambos casos indicados en la documentación de la clase
+4. Una unidad temática podrá darse en 1, 2 o maximo 3 sesiones
 
-6. Programación: Los programas mas complejos serán explicados en clase y se pedirá como trabajo de 'casa', hacer algun pequeño cambio en el programa y ver los efectos
+5. Habrá clases dedicadas completa o parcialmente a resolver dudas o ver montajes ehchso en casa de los alumnos, ... 
 
-7. El programa de clases se ira concretando y adaptando a los alumnos. Hay mucho material de años anteriores cubriendo un amplio abanico de complejidad, desde lo mas sencillo.
+### Reglas de funcionamiento
 
-8. Se dispone de una pagina web Indice de las clases y de contenido general como libros/webs de referencia, que ira evolucionado durante el curso, enlace: [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
+1. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas](https://github.com/Jcspoza/2526CL0_PyR_Intro#tabla-resumen-de-programas)***
+
+2. 
+
+3. Robotica: La idea es que el prototipo robótico se construya por cada alumno/a durante la/s clase/s y que se entienda el funcionamiento del programa en microPyton
+
+4. Programación: Los conceptos de programación en Python se probaran por cada alumno/a en durante la clase con el interprete si son comandos simples , o con pequeños programas ejemplo , en ambos casos indicados en la documentación de la clase
+
+5. Programación: Los programas mas complejos serán explicados en clase y se pedirá como trabajo de 'casa', hacer algun pequeño cambio en el programa y ver los efectos
+
+6. El programa de clases se ira concretando y adaptando a los alumnos. Hay mucho material de años anteriores cubriendo un amplio abanico de complejidad, desde lo mas sencillo.
+
+7. Se dispone de una pagina web Indice de las clases y de contenido general como libros/webs de referencia, que ira evolucionado durante el curso, enlace: [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
 
 ---
 
@@ -224,7 +248,7 @@ Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un jueg
 
 ---
 
-TO DO : 
+## TO DO :
 
 1. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( sin display por simplicidad) 
-2. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús)
+2. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús
