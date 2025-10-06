@@ -63,7 +63,9 @@ Manejaremos como máximo voltajes de 12 voltios y 1 amperio. La mayor parte del 
 
 #### 4- Inversión económica mínima
 
-Vamos a trabajar con un microcontrolador llamado Pico W que no proporciona el centro, y tiene un coste de unos 12 euros. Además es necesario disponer de materiales electrónicos individuales, con un coste variable no superior a 50 euros. Este material más el microcontrolador se han comprado otros años como kits y sale mas económico.
+Vamos a trabajar con un microcontrolador llamado Pico W que no proporciona el centro, y tiene un coste de unos 14 -19 euros. Además es necesario disponer de materiales electrónicos individuales, con un coste variable. Este material más el microcontrolador se han comprado otros años como kits y sale mas económico, material + microcontrolador percio 56 - 72 euros.
+
+Para un detalle de precios, consulta al final apartado **<u>Actualización de precios de Kits y solo micro</u>**
 
 También pueden ser necesarias algunas herramientas básicas como alicates o pelacables, o disponer de un multímetro básico. El profesor proporcionará de estas herramientas para las clases de cualquier forma
 
@@ -185,7 +187,23 @@ Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el
 
 Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) mas.
 
-## Funcionamiento y Dinámica de las clases
+## Clases : Contenido y plan + Dinámica + Reglas
+
+### Contenido y Plan de clases
+
+1. Las clases tendrán **unidad temática** con la idea de explicar y practicar en 1 clase
+
+2. Si el contenido lo requiere, una unidad temática podrá darse en 1, 2 o máximo 3 sesiones
+
+3. El plan de clases a 2 clases vista estará disponible en la pagina indice
+   
+   Indice evolutivo del las clases del taller + libros y webs de referencia:
+   
+   [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
+
+4. El plan a + de 2 a 3 clases **se adaptara y acordará con los alumnos**, es decir el programa de clases se ira concretando y adaptando a los alumnos. Hay mucho material de años anteriores cubriendo un amplio abanico de complejidad, desde lo mas sencillo a lo mas complejo
+
+5. Habrá clases dedicadas completa o parcialmente a resolver dudas o ver montajes hechos en casa de los alumnos, ...
 
 ### Dinámica
 
@@ -199,27 +217,23 @@ Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador +
    
    3. Trabajo de lo alumnos/as : montaje , probar los programas en sus uC, etc
 
-3. Se trabajara individualmente en principio, cada alumno0 con su propio material, salvo excepción.
+3. Se trabajara individualmente en principio, cada alumno con su propio material, salvo excepción.
 
-4. Una unidad temática podrá darse en 1, 2 o maximo 3 sesiones
+4. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas](https://github.com/Jcspoza/2526CL0_PyR_Intro#tabla-resumen-de-programas)***
 
-5. Habrá clases dedicadas completa o parcialmente a resolver dudas o ver montajes ehchso en casa de los alumnos, ... 
+5. **Robotica**: La idea es que el prototipo robótico se construya por cada alumno/a durante la/s clase/s y que se entienda el funcionamiento del programa en microPyton
+
+6. **Programación**: Los conceptos de programación en Python se probaran por cada alumno/a en durante la clase con el interprete si son comandos simples , o con pequeños programas ejemplo , en ambos casos indicados en la documentación de la clase
+
+7. **Programación**: Los programas mas complejos serán explicados en clase y se pedirá como trabajo de 'casa', hacer algun pequeño cambio en el programa y ver los efectos.
+
+8. Se dispone de una pagina web Indice de las clases y de contenido general como libros/webs de referencia, que ira evolucionado durante el curso, enlace: [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
 
 ### Reglas de funcionamiento
 
-1. Los programas de python o micropython usados en cada clase estarán disponibles en la pagina web de esa clase en una tabla ***[Tabla resumen de programas](https://github.com/Jcspoza/2526CL0_PyR_Intro#tabla-resumen-de-programas)***
-
-2. 
-
-3. Robotica: La idea es que el prototipo robótico se construya por cada alumno/a durante la/s clase/s y que se entienda el funcionamiento del programa en microPyton
-
-4. Programación: Los conceptos de programación en Python se probaran por cada alumno/a en durante la clase con el interprete si son comandos simples , o con pequeños programas ejemplo , en ambos casos indicados en la documentación de la clase
-
-5. Programación: Los programas mas complejos serán explicados en clase y se pedirá como trabajo de 'casa', hacer algun pequeño cambio en el programa y ver los efectos
-
-6. El programa de clases se ira concretando y adaptando a los alumnos. Hay mucho material de años anteriores cubriendo un amplio abanico de complejidad, desde lo mas sencillo.
-
-7. Se dispone de una pagina web Indice de las clases y de contenido general como libros/webs de referencia, que ira evolucionado durante el curso, enlace: [GitHub - Jcspoza/2526_PyR_Index: Curso Programación y Robotica 2025 2026 - CMM BML](https://github.com/Jcspoza/2526_PyR_Index)
+1. Se llevara control de las faltas porque lo exigen las reglas del CMM
+2. Se dispondrá de un grupo de WA para avisos e info relacionada con la programación o robotica. Se ruega NO publicar contenidos ajenos
+3. Se ruega avisar por WA de las ausencias caso de no haberlo avisado con antelación
 
 ---
 
@@ -248,7 +262,27 @@ Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un jueg
 
 ---
 
+## Actualización de precios de Kits y solo micro
+
+### Kits pico 2w
+
+- [Aliexpres Freemove con PICO 2  W 56 eur](https://www.aliexpress.com/p/tesla-landing/index.html?_immersiveMode=true&scenario=c_ppc_item_bridge_gmv&productId=1005004336772445&src=google&aff_short_key=_c3iN9Lxl&withMainCard=true&aff_platform=true&isdl=y&traffic_server_nav=true&key=_3in1&src=google&albch=shopping&acnt=752-015-9270&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=_c3iN9Lxl&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=776106029446&ds_e_matchtype=search&ds_e_device=c&ds_e_network=g&ds_e_product_group_id=2440549163942&ds_e_product_id=es1005004336772445&ds_e_product_merchant_id=5660123851&ds_e_product_country=ES&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=23060876789&albag=186920513438&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=23060876789&gbraid=0AAAAA_eFwRChESAFBatUkAX8xwmuP4zIQ&gclid=Cj0KCQjw0Y3HBhCxARIsAN7931XtuIIu_pNjkdboq6rrK_G82yOxTrVqLatZyvxQOE3jfQlkRxciFyoaAuS4EALw_wcB)     Tutorial detallado de 767 páginas en total
+
+- [Amazon Freemove ultimate con  PICO 2 w 64](https://www.amazon.es/Freenove-Raspberry-Compatible-Tutoriales-Detallados/dp/B0DR2GDKJ4?ref_=ast_sto_dp&th=1)
+
+- [Sunfounder Ultimate Pico 2W](https://www.sunfounder.com/collections/pico-w-pico/products/raspberry-pi-pico-ultimate-starter-kit-euler-copy) en su propia tienda 65 eur +  gastos
+
+- [Amazon Sunfounder Ultimate  Pico 2W](https://www.amazon.es/SunFounder-Raspberry-tutoriales-MicroPython-compatible/dp/B0DYJ6L46J/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3UNVEJGK2SDYS&dib=eyJ2IjoiMSJ9.BO4h1OeAL0vD6sE_ov98RA.jeDkE1VaXDdJUqMa04r3J4BLnrh5LmzWMyZh-RxgahY&dib_tag=se&keywords=Sunfounder+Ultimate+Pico+2W&qid=1759772400&s=electronics&sprefix=sunfounder+ultimate+pico+2w%2Celectronics%2C64&sr=1-1) - 72  eur con gastos incluidos
+
+### Pico 2W NO kit
+
+- [Raspberry Pi Pico 2WH - kubii  9+4 eur](https://www.kubii.com/es/microcontroladores/4377-2357-raspberry-pi-pico-2-2w-2h-2wh-3272496319394.html#/version_pico-pico_2_wh)
+
+- [Raspberry Pico 2wh - Tiendatec 9+5](https://www.tiendatec.es/raspberry-pi-pico/2423-1403-raspberry-pi-pico-2-w.html#/250-version-con_pines_presoldados)
+
+- [Amazon : 19 eur - Waveshare  Pi-Pico-2-W-M Package, RPi Official Pico 2 W Microcontroller Board with  Pre-Soldered Header (Mono), RP2350 Chip, Dual-Core & Dual-Architecture Design, Supports WiFi & BT5.2](https://www.amazon.es/dp/B0DP42Q5K5/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk)
+
 ## TO DO :
 
-1. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( sin display por simplicidad) 
-2. Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús
+- Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( sin display por simplicidad) 
+- Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús)
