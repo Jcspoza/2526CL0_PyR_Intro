@@ -43,7 +43,7 @@ Este taller requiere que tengas un manejo de un ordenador tipo PC de nivel medio
 
 - Escribir en programas en aplicación de editor de texto ( como un word, pero mas sencillo)
 
-- Manejar ficheros del ordenador: copiar, mover , borrar, etc
+- Manejar ficheros del ordenador: copiar, mover , borrar, etc.
 
 - Navegar por la web, bajar ficheros etc.
 
@@ -63,7 +63,7 @@ Manejaremos como máximo voltajes de 12 voltios y 1 amperio. La mayor parte del 
 
 #### 4- Inversión económica mínima
 
-Vamos a trabajar con un microcontrolador llamado Pico W que no proporciona el centro, y tiene un coste de unos 14 -19 euros. Además es necesario disponer de materiales electrónicos individuales, con un coste variable. Este material más el microcontrolador se han comprado otros años como kits y sale mas económico, material + microcontrolador percio 56 - 72 euros.
+Vamos a trabajar con un microcontrolador llamado **Pico 2 W** que no proporciona el centro, y tiene un coste minimo de unos 14 -19 euros (con gastos de envio) . Además es necesario disponer de materiales electrónicos individuales, con un coste variable. Este material más el microcontrolador se han comprado otros años como kits y sale mas económico, material + microcontrolador precio 56 - 72 euros.
 
 Para un detalle de precios, consulta al final apartado **<u>Actualización de precios de Kits y solo micro</u>**
 
@@ -181,11 +181,9 @@ Es el momento de conocernos un poco, porque este es un taller personalizado para
 
 *Herramientas HW*: **<u>Microcontrolador</u>**: ya hemso comentado que es como el cerebro de todos los proyectos de robotica, es también donde se conectan todos los sensores, displays, etc. El **año pasado decidimos usar el microcontrolador <u>Raspberry Pi Pico W</u>** 
 
-Seguiremos con él el curso 2024 - 2025, porque las razones no han cambiado y el precio es aproximadamente el mismo. Comentaremos este tema en próximas clases
+Seguiremos con él el curso 2024 - 2025, pero **a los nuevos alumnos se les recomendara usar la versión nueva <u>Raspberry Pico 2W</u>**, porque el precio es aproximadamente el mismo, es mucho mas potente y ya no se encuentra la Pico 1 w.  Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) más. Comentaremos este tema en próximas clases. 
 
-**Novedad:** Recientemente, agosto 2024, ha aparecido una versión muy mejorada de la Raspberry Pico -> [**Raspberry Pi Pico 2**: A Powerful New Addition to the Microcontroller Family | Elektor Magazine](https://www.elektormagazine.com/news/raspberry-pi-pico-2-a-powerful-new-addition-to-the-microcontroller-family)) muy interesante, pero de momento sin wifi asi que nos quedaremos con el Pico W
-
-Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) mas.
+Lo ideal es comprar un kit, pero se puede empezar solo con el microcontrolador + una Protoboard y algunas cosas (muy baratas) más.
 
 ## Clases : Contenido y plan + Dinámica + Reglas
 
@@ -282,7 +280,15 @@ Es del curso 2023 a 2024, incluye programación grafica ( sencilla) . es un jueg
 
 - [Amazon : 19 eur - Waveshare  Pi-Pico-2-W-M Package, RPi Official Pico 2 W Microcontroller Board with  Pre-Soldered Header (Mono), RP2350 Chip, Dual-Core & Dual-Architecture Design, Supports WiFi & BT5.2](https://www.amazon.es/dp/B0DP42Q5K5/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk)
 
+### Informacion y Comparación Pico W vs Pico 2W
+
+[Pico-series Microcontrollers - Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
+
+[Get Started Raspberry Pi Pico 2 and Pico 2 W | Random Nerd Tutorials](https://randomnerdtutorials.com/getting-started-raspberry-pi-pico-2-w/)
+
+[VIDEO- Raspberry Pi Pico 2 W más POTENTE y capaz que nunca.  Intro](https://youtu.be/W8A2qDFkfEw?si=m5sNF7x4ACZvfTOu) - ver solo hasta el minuto 8
+
 ## TO DO :
 
 - Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( sin display por simplicidad) 
-- Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús)
+- Funciones complejas de Neopixel como secuencia, ejecutarlas con interrupciones y timers, para que sean independientes del programa ( CON display y resto menús)w
